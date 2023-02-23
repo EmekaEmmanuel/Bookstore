@@ -24,7 +24,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <h3><b>Math Magician project</b></h3>
+  <h3><b>Book Store project</b></h3>
 
 </div>
 
@@ -54,11 +54,12 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Capstone javascript project <a name="about-project"></a>
 
-> This is a project for all fans of mathematics; It is a Single Page App (SPA) that allows users to: Make simple calculations and Read a random math-related quote.
+> The Bookstore is a project that allows users to: Display a list of books, Add a book, Remove a selected book. React and Redux were used.
 
 ## 🛠 Built With <a name="built-with"> </a>
 
 > React.
+> Redux.
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -67,15 +68,15 @@ After you're finished please remove all the comments and instructions!
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-- **[Allows users to Make simple calculations ..]**
-- **[Allows users to Read a random math-related quote..]**
+- **[Display a list of books ..]**
+- **[Allows users to Add a book ..]**
+- **[Allows users to Remove a selected book..]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p><!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://emekaemmanuel.github.io/math_magiciansReact
+- [Live Demo Link](https://emekaemmanuel.github.io/Bookstore
 ) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -161,7 +162,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Setup
 
-> <p> git clone https://github.com/EmekaEmmanuel/math_magiciansReact.git</p>
+> <p> git clone https://github.com/EmekaEmmanuel/Bookstore.git</p>
 > cd math_magiciansReact
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -206,8 +207,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/EmekaEmmanuel/
-math_magiciansReact/issues).
+Feel free to check the [issues page](https://github.com/EmekaEmmanuel/Bookstore/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
