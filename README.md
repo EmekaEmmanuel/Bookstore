@@ -72,18 +72,7 @@ After you're finished please remove all the comments and instructions!
 - **[Allows users to Add a book ..]**
 - **[Allows users to Remove a selected book..]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p><!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://emekaemmanuel.github.io/Bookstore
-) 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Project Presentation <a name="project-presentation"></a>
-
-- [Project Presentation video link](https://) 
 
 <!-- GETTING STARTED -->
 
@@ -200,7 +189,9 @@ To run the project, execute the following command:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
+- Display pre-set categories dynamically.
+- Add a page that displays books by filtered category.
+- Add more css styling.
 >
 
 ## 🤝 Contributing <a name="contributing"></a>
