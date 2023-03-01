@@ -72,7 +72,13 @@ After you're finished please remove all the comments and instructions!
 - **[Allows users to Add a book ..]**
 - **[Allows users to Remove a selected book..]**
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p><!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Project Presentation <a name="project-presentation"></a>
 
 <!-- GETTING STARTED -->
 
