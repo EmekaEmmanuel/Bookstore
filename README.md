@@ -52,7 +52,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Capstone javascript project <a name="about-project"></a>
+# 📖 Bookstore project <a name="about-project"></a>
 
 > The Bookstore is a project that allows users to: Display a list of books, Add a book, Remove a selected book. React and Redux were used.
 
@@ -76,14 +76,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://emekaemmanuel.github.io/Bookstore
-) 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Project Presentation <a name="project-presentation"></a>
-
-- [Project Presentation video link](https://) 
 
 <!-- GETTING STARTED -->
 
@@ -200,7 +195,9 @@ To run the project, execute the following command:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
+- Display pre-set categories dynamically.
+- Add a page that displays books by filtered category.
+- Add more css styling.
 >
 
 ## 🤝 Contributing <a name="contributing"></a>
