@@ -1,17 +1,30 @@
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import Book from '../components/Book';
 import Form from '../components/Form';
 import Nav from '../components/Nav';
 import '../css/BookPage.css';
+import {
+  fetchBooks,
+} from '../app/features/book/bookSlice';
 
 function BookPage() {
-  const mockbooks = [
-    { title: 'The Hunger Games', author: '  Suzanne Collins' },
-    { title: 'Things Fall Apart', author: 'Chinua Achebe' },
-    { title: 'Terminator', author: 'Asake' },
-    { title: 'Rich Till I Die', author: 'Kiss Daniel' },
-  ];
-  const [mybooks] = useState(mockbooks);
+  const mybooks = useSelector((state) => state.book.books);
+
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    let active = true;
+    (async () => {
+      if (active) {
+        dispatch(fetchBooks());
+      }
+    })();
+    return () => {
+      active = false;
+    };
+  }, [dispatch]);
+
   return (
     <div>
       <Nav />

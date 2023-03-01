@@ -1,19 +1,30 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
 import '../css/Book.css';
+import { useDispatch } from 'react-redux';
+import { deleteBook, deleteBooks, fetchBooks } from '../app/features/book/bookSlice';
 
 function Book(props) {
+  const dispatch = useDispatch();
   const { mybooks } = props;
+
+  const handleDelete = (objId) => {
+    dispatch(deleteBook(objId));
+    dispatch(deleteBooks(objId));
+    setTimeout(() => {
+      dispatch(fetchBooks());
+    }, 500);
+  };
+
   return (
     <div className="app_container">
       <section className="cards_section">
         {mybooks.map((mybook) => (
-          <article className="card_article" key={mybook.title}>
+          <article className="card_article" key={mybook.id}>
             <div className="card_left">
               <div className="card_description">
                 <p className="font1">
-
-                  Action
+                  {mybook.category}
                 </p>
                 <h3 className="font2">
                   {' '}
@@ -26,7 +37,7 @@ function Book(props) {
               <ul className="font4 card_interaction">
                 <button type="button" className="interact_btn">Comments</button>
                 <div className="vertical_line" />
-                <button type="button" className="interact_btn">Remove</button>
+                <button onClick={() => handleDelete(mybook.id)} type="button" className="interact_btn">Remove</button>
                 <div className="vertical_line" />
                 <button type="button" className="interact_btn">Edit</button>
               </ul>
