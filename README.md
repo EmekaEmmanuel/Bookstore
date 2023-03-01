@@ -1,34 +1,10 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
 
   <h3><b>Book Store project</b></h3>
 
-</div>
-
-<!-- TABLE OF CONTENTS -->
+</div> 
 
 # 📗 Table of Contents
 
@@ -48,9 +24,7 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
-
-<!-- PROJECT DESCRIPTION -->
+- [📝 License](#license) 
 
 # 📖 Bookstore project <a name="about-project"></a>
 
@@ -63,24 +37,20 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> React.
-
-<!-- Features -->
+> React. 
 
 ### Key Features <a name="key-features"></a>
 - **[Display a list of books ..]**
 - **[Allows users to Add a book ..]**
 - **[Allows users to Remove a selected book..]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p><!-- LIVE DEMO -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Project Presentation <a name="project-presentation"></a>
-
-<!-- GETTING STARTED -->
+## Project Presentation <a name="project-presentation"></a> 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -124,12 +94,6 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
@@ -180,9 +144,7 @@ To install this project in your local machine use
 
 To run the project, execute the following command:
 
-> In visual studio code Go to dist folder then open index.html in live server.
-
-<!-- AUTHORS -->
+> In visual studio code Go to dist folder then open index.html in live server. 
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -190,9 +152,7 @@ To run the project, execute the following command:
 
 - GitHub: [EmekaEmmanuel](https://github.com/EmekaEmmanuel)
 - Twitter: [@emekaekeoha](https://twitter.com/emekaekeoha)
-- LinkedIn: [emeka-ugboaja](https://www.linkedin.com/in/emeka-ugboaja-167820226)
-
-<!-- FUTURE FEATURES -->
+- LinkedIn: [emeka-ugboaja](https://www.linkedin.com/in/emeka-ugboaja-167820226) 
 
 ## 🔭 Future Features <a name="future-features"></a>
 - Display pre-set categories dynamically.
@@ -206,25 +166,19 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/EmekaEmmanuel/Bookstore/issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 ## ⭐️ Show your support <a name="support"></a>
 
 > If you like the project please give it star
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > we would like to thank Microverse team
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 ## 📝 License <a name="license"></a>
 
