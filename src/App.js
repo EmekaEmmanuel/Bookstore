@@ -1,18 +1,15 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './components/calculator.css';
-import Calculator from './components/Calculator';
-import Quote from './components/Quote';
-import Home from './components/Home';
+import BookPage from './Pages/BookPage';
+import CategoryPage from './Pages/CategoryPage';
 
 function App() {
   return (
     <BrowserRouter>
       <div>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Calculator" element={<Calculator />} />
-          <Route path="/Quote" element={<Quote />} />
+          <Route path="/" element={<BookPage />} />
+          <Route path="/category" element={<CategoryPage />} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.app_container {
+  width: 90%;
+  margin: auto;
+}
+
+.btn_center {
+  text-align: center;
+  align-items: center;
+}
+
+.statusBtn {
+  padding: 15px 10px;
+  background-color: #0290ff;
+}
+
+.border_none {
+  border: none;
+}
