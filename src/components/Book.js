@@ -34,7 +34,7 @@ function Book(props) {
                   {mybook.author}
                 </h4>
               </div>
-              <ul className="font4 card_interaction">
+              <ul className="font3 card_interaction">
                 <button type="button" className="interact_btn">Comments</button>
                 <div className="vertical_line" />
                 <button onClick={() => handleDelete(mybook.id)} type="button" className="interact_btn">Remove</button>

@@ -6,10 +6,10 @@ import profileImg from '../img/user.jpg';
 function Nav() {
   return (
     <div className="app_container">
-      <header className="navigation_container">
-        <nav className="nav_tag">
+      <header className="navigation_container nav_position">
+        <nav className="nav_tag nav_position nav_gap">
           <h1>BookStore CMS</h1>
-          <ul className="nav_list">
+          <ul className="nav_list nav_position nav_gap">
             <li>
               <Link to="/" className="nav_anchor td_none">Books </Link>
             </li>
