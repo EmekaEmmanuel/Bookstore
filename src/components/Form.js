@@ -20,7 +20,6 @@ function Form() {
 
   const clearInputFields = () => {
     setTitle('');
-    setAuthor('');
     setCategory('');
   };
 
@@ -53,6 +52,7 @@ function Form() {
               id=""
               className="dropdown_width input_tag outline_none"
             >
+              <option value="">Select Author</option>
               <option value="Suzanne Collins">Suzanne Collins</option>
               <option value="Chinua Achebe">Chinua Achebe</option>
               <option value="Asake">Asake</option>
