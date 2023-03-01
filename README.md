@@ -58,6 +58,45 @@ to run on your localhost clone the project to local folder
 
 > cd math_magiciansReact
 
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### Setup
+
+> <p> git clone https://github.com/EmekaEmmanuel/Bookstore.git</p>
+> cd math_magiciansReact
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Prerequisites
+
+In order to run this project you only need:
+
+- latest web-browser
+- node.js and npm
+
+### Install
+
+To install this project in your local machine use
+
+> npm i
+> npm run build
+
+### Usage
+
+To run the project, execute the following command:
+
+> In visual studio code Go to dist folder then open index.html in live server. 
+
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Emeka Emmanuel Ugboaja**
