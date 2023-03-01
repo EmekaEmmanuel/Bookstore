@@ -52,7 +52,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Capstone javascript project <a name="about-project"></a>
+# 📖 Bookstore project <a name="about-project"></a>
 
 > The Bookstore is a project that allows users to: Display a list of books, Add a book, Remove a selected book. React and Redux were used.
 
