@@ -2,7 +2,7 @@ import { React, useState } from 'react';
 import '../css/Form.css';
 import { v4 as uuid } from 'uuid';
 import { useDispatch } from 'react-redux';
-import { addBooks, addBook, fetchBooks } from '../app/features/book/bookSlice';
+import { addBooks, addBook, fetchBooks } from '../redux/book/bookSlice';
 
 function Form() {
   const dispatch = useDispatch();

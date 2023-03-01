@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/StatusBtn.css';
 import { useSelector, useDispatch } from 'react-redux';
-import { checkStatus } from '../app/features/category/categorySlice';
+import { checkStatus } from '../redux/category/categorySlice';
 
 function StatusBtn() {
   const dispatch = useDispatch();

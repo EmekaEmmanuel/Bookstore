@@ -6,7 +6,7 @@ import Nav from '../components/Nav';
 import '../css/BookPage.css';
 import {
   fetchBooks,
-} from '../app/features/book/bookSlice';
+} from '../redux/book/bookSlice';
 
 function BookPage() {
   const mybooks = useSelector((state) => state.book.books);
