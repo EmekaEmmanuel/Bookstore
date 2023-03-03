@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.app_container {
+  width: 90%;
+  margin: auto;
+}
+
+.navigation_container {
+  padding: 15px 0;
+}
+
+.nav_tag h1 {
+  color: #0290ff;
+}
+
+.profile_icon {
+  width: 30px;
+}
+
+.nav_position {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_gap {
+  gap: 30px;
+}
+
+.nav_list {
+  list-style: none;
+  color: #696969;
+}
+
+.td_none {
+  text-decoration: none;
+}
