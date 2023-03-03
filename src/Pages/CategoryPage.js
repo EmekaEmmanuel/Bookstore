@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react';git 
 import Nav from '../components/Nav';
 import StatusBtn from '../components/StatusBtn';
 import '../css/CategoryPage.css';
